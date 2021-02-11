@@ -2,8 +2,7 @@
 
 .container{
     width:1086px;
-    margin:0 auto;
-    
+    margin: auto;
 }
 .clear{
     clear:both;
@@ -28,7 +27,7 @@
 }
 .upper-block{
     height:190px;
-    margin-top:30px
+    margin-top:30px;
 }
 .bottom-block{
     height:190px;
@@ -59,9 +58,7 @@
     font-display: swap;
     font-size: 14px;
     float: left;
-    padding-top: 36px;
-    
-}
+    padding-top: 36px;}
 .text2{
     font-family: 'Poppins';
     font-weight: 600;
@@ -81,5 +78,113 @@
     float:left;
     color: #B1B1B1;
     padding: 12px 92px 0 0;
+}
+/* pseudo eements*/
+.section-2{
+    margin-top:40px;
+}
+.container2{
+    width:1088px;
+    margin:auto;
+}
+.name{
+    color: #5863F8;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    margin-top:65px;
+
+}
+.name::after{
+    content: 'Read our newest blog post right away';
+    font-size:42px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    display: block;
+    color:#000000;
+    padding-top:10px;
+}
+.up-block{
+    height:360px;
+    margin-top: 30px;
+   
+}
+.down-block{
+    height:360px;
+    margin-top: 30px;
+    
+}
+.box1{
+    float:left;
+    width:352px;
+    height:360px;
+    background-color: #F8F8F8;
+}
+.box1::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+.img{
+    width:352px;
+    height:212px;
+}
+.pr1{
+    display: block;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+}
+.pr1::before{
+   content: ' Food and life';
+   display: block;
+   text-align: center;
+   padding-top: 23px;
+   padding-bottom: 10px;
+   color: #5863F8;
+   font-family: 'Poppins';
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+   font-size: 14px;
+}
+.pr1::after{
+    content: 'Fresh food directly from our restaurant ready coocked for you and you familly';
+    display: block;
+    width:260px;
+    margin:auto;
+    padding-top:10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size:14px;
+    color: #B1B1B1;
+ }
+ .box2{
+    float:left;
+    width:352px;
+    height:360px;
+    background-color: #F8F8F8;
+    margin-left:16px;
+}
+.box2::before{
+    clear: both;
+}
+.box3{
+    float:left;
+    width:352px;
+    height:360px;
+    background-color: #F8F8F8;
+    margin-left:16px;
+}
+.box3::before{
+    clear: both;
 }
 
