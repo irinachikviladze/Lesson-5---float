@@ -95,7 +95,7 @@
     font-style: normal;
     font-display: swap;
     margin-top:65px;
-
+    text-transform: uppercase;
 }
 .name::after{
     content: 'Read our newest blog post right away';
@@ -145,6 +145,7 @@
 }
 .pr1::before{
    content: ' Food and life';
+   text-transform: uppercase;
    display: block;
    text-align: center;
    padding-top: 23px;
@@ -169,6 +170,7 @@
     font-size:14px;
     color: #B1B1B1;
  }
+ 
  .box2{
     float:left;
     width:352px;
@@ -189,4 +191,75 @@
 .box3::before{
     clear: both;
 }
-
+.pr2{
+    display: block;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+}
+.pr2::before{
+    content:'cooking';
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    color: #5863F8;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+}
+.pr2::after{
+    content: 'Fresh food directly from our restaurant ready coocked for you and you familly';
+    display: block;
+    width:260px;
+    margin:auto;
+    padding-top:10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size:14px;
+    color: #B1B1B1;
+ }
+ .pr3{
+    display: block;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+ }
+ .pr3::before{
+    content:'Fruits';
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    color: #5863F8;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+ }
+ .pr3::after{
+    content: 'Fresh food directly from our restaurant ready coocked for you and you familly';
+    display: block;
+    width:260px;
+    margin:auto;
+    padding-top:10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size:14px;
+    color: #B1B1B1;
+ }
